@@ -24,3 +24,4 @@
 [Урок 12](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_12 "Хостинг от GitHub")
 
 [Урок 13](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_13 "Адаптивная верстка")
+[Урок_13_Практика](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_13_Practice/src "Практика. Часть 1")
