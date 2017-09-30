@@ -19,6 +19,8 @@
 
 [Урок 10](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_10 "Препроцессор LESS для CSS")
 
-[Урок 11]("Сниппеты")
+[Урок 11]((https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_11 "Сниппеты")
 
-[Урок 12]("Хостинг от GitHub")
+[Урок 12]((https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_12 "Хостинг от GitHub")
+
+[Урок 13]((https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_13 "Адаптивная верстка")
