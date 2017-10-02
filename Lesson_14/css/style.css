@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Bebas Neue Cyrillic';
+	src: url('../fonts/Bebas Neue/BebasNeueCyrillic.eot');
+	src: url('../fonts/Bebas Neue/BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Bebas Neue/BebasNeueCyrillic.woff2') format('woff2'),
+		url('../fonts/Bebas Neue/BebasNeueCyrillic.woff') format('woff'),
+		url('../fonts/Bebas Neue/BebasNeueCyrillic.ttf') format('truetype'),
+		url('../fonts/Bebas Neue/BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Regular.eot');
+	src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+		url('../fonts/Lato/Lato-Regular.ttf') format('truetype'),
+		url('../fonts/Lato/Lato-Regular.svg#Lato-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.open-sans {
+	font-family: 'Open Sans';
+}
+
+.bebas {
+	font-family: 'Bebas Neue Cyrillic';
+}
+
+.lato {
+	font-family: 'Lato';
+}
+
+.lobster {
+	font-family: 'Lobster', cursive;
+}
