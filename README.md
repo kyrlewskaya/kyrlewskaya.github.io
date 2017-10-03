@@ -1,6 +1,8 @@
 # Наталья Курлович
 Мои домашние задания
 
+[Модуль_5_Практика]("Модуль_5_Практика")
+
 [Урок 2](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_2 "Работа с графикой для разработчика")
 
 [Урок 3](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_3 "Настройка рабочего пространства")
@@ -24,8 +26,6 @@
 [Урок 12](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_12 "Хостинг от GitHub")
 
 [Урок 13](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_13 "Адаптивная верстка")
-
-[Урок_13_Практика](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_13_Practice/src "Практика. Часть 1")
 
 [Урок_14](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_14 "Подключение шрифтов")
 
