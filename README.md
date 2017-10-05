@@ -1,7 +1,7 @@
 # Наталья Курлович
 Мои домашние задания
 
-[Модуль_5_Практика]("Модуль_5_Практика")
+[Модуль_5_Практика](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Practice/src "Модуль_5_Практика")
 
 [Урок 2](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_2 "Работа с графикой для разработчика")
 
