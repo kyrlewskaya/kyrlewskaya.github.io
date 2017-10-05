@@ -30,3 +30,5 @@
 [Урок_14](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_14 "Подключение шрифтов")
 
 [Урок_15](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_15 "Псевдоклассы и псевдоэлементы")
+
+[Урок_16](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_16 "Слайдер на сайте")
