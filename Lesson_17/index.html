@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Всплывающие окна</title>
+        
+        <!-- Подключаем стили Bootstrap (взять на сайте bootstrapcdn.com) -->
+        <href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Наши стили -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<a href="#my-modal" class="link" data-toggle="modal">Удалить файл</a>
+			<button class="btn btn-success" data-toggle="modal" data-target="#my-modal">Удалить</button>
+		</div>
+
+		<!-- Модальное окно от Bootstrap [задать id="my-modal", к которому будем обращаться]-->
+		<div class="modal fade" id="my-modal">
+		    <!-- Само (белое) модальное окно -->
+		    <div class="modal-dialog">
+		    	<!-- Содержимое модального окна -->
+			    <div class="modal-content">
+			    	<!-- Шапка модального окна -->
+			        <div class="modal-header">
+			        	<!-- Кнопка Закрыть -->
+			            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span   aria-hidden="true">&times;</span></button>
+			            <!-- Заголовок модального окна -->
+			            <h4 class="modal-title">Удаление файла</h4>
+			        </div>
+			        <!-- Тело модального окна -->
+			        <div class="modal-body">
+			            <p>Вы действительно  хотите удалить файл?</p>
+			        </div>
+			        <!-- Футер модального окна -->
+			        <div class="modal-footer">
+			            <button type="button" class="btn btn-default" data-dismiss="modal">Да</button>
+			            <button type="button" class="btn btn-primary">Нет</button>
+			        </div>
+			    </div><!-- /.modal-content -->
+		    </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+		<!-- Обязательно подключить библиотеку jQuery (necessary for Bootstrap's JavaScript plugins) Взять на сайте code.jquery.com - jQuery 1.x - minified (скопировать ссылку) -->
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<!-- Подключить js-файлы для модальных окон от Bootstrap (взять на bootstrapcdn.com) -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
