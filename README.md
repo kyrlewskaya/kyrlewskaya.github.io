@@ -32,3 +32,5 @@
 [Урок_15](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_15 "Псевдоклассы и псевдоэлементы")
 
 [Урок_16](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_16 "Слайдер на сайте")
+
+[Урок_17](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_17 "Всплывающие окна")
