@@ -50,7 +50,7 @@ a {
 		text-decoration: none;
 	}
 }
-button, input, a {
+button, input, a, textarea {
 	&:focus {
 		outline: none;
 	}
@@ -247,6 +247,51 @@ section {
     background: url(../img/features/right-arrow.svg) center no-repeat;
     background-size: 70%;
 }
+
+
+/* Оформление модальных окон */
+.popup {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+	&-content {
+		left: 50%;
+		top: 10%;
+		background-color: @light;
+		transform: translateX(-50%);
+		padding: 4rem 5rem;
+	}
+	&-form {
+		margin-top: 3rem;
+		padding: 0;
+	}
+	&-close {
+		position: absolute;
+		top: -1rem;
+		right: -2rem;
+		width: 2rem;
+		text-align: center;
+		border: none;
+		background-color: transparent;
+		font-size: 3rem;
+		color: @light;
+	}
+	&-content {
+		position: fixed;
+		text-align: center;
+	}
+	&-header {
+		.bold();
+	}
+}
+
 
 @media (max-width: 991px) {
 	.main {
