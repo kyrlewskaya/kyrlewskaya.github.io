@@ -36,3 +36,5 @@
 [Урок_17](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_17 "Всплывающие окна")
 
 [Урок_18](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_18 "Табы и аккордеон на сайте")
+
+[Урок_19](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_19/src "Анимация на CSS3")
