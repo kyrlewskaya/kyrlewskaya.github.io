@@ -34,3 +34,5 @@
 [Урок_16](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_16 "Слайдер на сайте")
 
 [Урок_17](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_17 "Всплывающие окна")
+
+[Урок_18](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_18 "Табы и аккордеон на сайте")
