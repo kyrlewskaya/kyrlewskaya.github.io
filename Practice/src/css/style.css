@@ -255,6 +255,13 @@ section {
   display: inline-block;
   margin-bottom: 2rem;
 }
+.price-block a {
+  display: block;
+  color: #46b914;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
 .price-tag {
   display: block;
   margin-bottom: 2rem;
@@ -277,6 +284,13 @@ section {
   background: url('../img/prices/checked.svg') no-repeat center;
   background-size: 100%;
   vertical-align: middle;
+}
+.well {
+  border: none;
+  background-color: #ffffff;
+  min-height: 14rem;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 /* Оформление модальных окон */
 .popup {
