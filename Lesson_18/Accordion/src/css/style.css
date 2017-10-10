@@ -1,0 +1,52 @@
+body {
+	background: url(../img/bg.jpg);
+	text-align: center;
+	font: 'Ubuntu', sans-serif;
+
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #0bbaf0;
+	line-height: 1.2;
+}
+
+strong {
+	display: block;
+	font-size: 36px;
+	font-weight: bold;
+
+}
+
+.container {
+	width: 860px;
+	height: 420px;
+	margin-top: 55px;
+}
+
+h4 {
+	width: 100%;
+	height: 100%;
+	
+}
+
+a, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	font-style: italic;
+}
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #0bbaf0;
+    font-size: 23.2px;
+}
+
+.panel-body {
+	text-align: left;
+	padding: 20px 60px 40px 30px;
+
+}

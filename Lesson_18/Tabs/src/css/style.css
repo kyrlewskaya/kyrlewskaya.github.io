@@ -1,0 +1,120 @@
+.wrapper {
+    height: 500px;
+	width: 800px;
+	background: url(../img/bg.jpg) no-repeat;
+	margin: 0 auto;
+	padding: 22px 85px 35px 85px;
+}
+
+.container {
+    height: 445px;
+	width: 100%;
+	padding: 0;
+	font-size: 15px;
+	font: 'Myriad Pro', sans-serif;
+	position: relative;
+
+}
+
+li {
+	padding-right: 5px;
+
+}
+
+li:first-child {
+	padding-left: 25px;
+    
+}
+.tab-name {
+
+	height: 35px;
+	text-decoration: none;
+	font-size: 24px;
+	color: black;
+	margin-bottom: 3px;
+    padding-right: 30px;
+	background-color: #fff;
+}
+
+.tab-pane {
+    color: white;
+}
+
+.form {
+	margin-top: 70px;
+	margin-bottom: 5px;
+}
+
+.tab-content{
+	border: 15px solid #049ac9;
+	border-radius: 4px;
+	height: 405px;
+	width: 625px;
+    margin-top: -3px;
+    background-color: black;
+}
+
+.form-input {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 480px;
+	height: 60px;
+	background-color: #1f1e1e;
+	border: 0;
+	border-radius: 5px;
+	font-size: 24px;
+	padding-left: 25px;
+}
+
+
+
+.forgotpass {
+	display: block;
+	text-decoration: none;
+	color: #c51f03;
+	margin-left: 90px;
+}
+
+.forgotpass:hover {
+	text-decoration: none;
+	color: #c51f03;
+	font-style: italic;
+}
+
+.checkbox {
+	margin-right: 10px;
+}
+
+.reminder {
+	margin-top: 60px;
+	margin-left: 80px;
+	padding: 0;
+	color: #6f6d6d;
+}
+
+.remind input {
+	margin: 0 10px 0 10px;
+}
+
+.button {
+	display: block;
+	position: absolute;
+	right: -7px;
+	bottom: 20px;
+	width: 130px;
+	height: 55px;
+	padding-bottom: 15px;
+	position: absolute;
+    margin-left: auto;
+	background: url(../img/ribbon.png) no-repeat;
+	border: 0;
+	font-size: 24px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #049ac9;
+	border: 0;
+    border-bottom-color: transparent;
+    color: white;
+}
