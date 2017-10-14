@@ -1,0 +1,56 @@
+body {
+
+}
+
+.map {
+	position: relative;
+}
+
+.contacts {
+	margin-left: 20%;
+	position: absolute;
+	width: 380px;
+	height: 430px;
+	background-color: #c60b0b;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+}
+
+.h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+.contacts p {
+	display: block;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 20px;
+	text-align: center;
+	height: 95px;
+}
+
+.logotext {
+	padding: 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+.safety {
+	font-size: 14px;
+	color: #666666;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.telnumber {
+    font-size: 22px;
+}
+
+.address {
+    font-size: 14px;
+}
