@@ -1,0 +1,133 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+a,
+a:focus,
+a:visited {
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+}
+p {
+	margin-bottom: 0;
+}
+.container {
+	position: relative;
+	max-width: 1024px;
+	border: 1px solid red;
+}
+header {
+
+}
+.header {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 0;
+	padding: 1rem 0;
+	height: 4rem;
+	width: 100%;
+	background-color: #cfe2f3;
+	z-index: 2;
+	border: 1px solid black;
+}
+.header nav {
+	font-weight: bold;
+	text-align: center;
+}
+.header nav a {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+.content {
+	position: relative;
+	width: 100%;
+	background-color: #cfe2f3;
+	border: 1px solid black;
+}
+.page-description {
+	padding: 1rem;
+	min-height: 10rem;
+	text-align: justify;
+	border-bottom: 1px solid black;
+}
+.content-aside {
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top: 4rem;
+	float: right;
+	width: 20rem;
+	min-height: 2rem;
+	margin: 1rem;
+	padding: .5rem;
+	text-align: justify;
+	background-color: #dad2e9;
+	border: 1px solid black;
+}
+.content-info {
+	padding: 1rem;
+	margin-right: 21rem;
+	margin-bottom: 0;
+	text-align: justify;
+}
+.footer {
+	min-height: 3rem;
+	background-color: #cfe2f3;
+	border: 1px solid black;
+}
+.footer-info {
+	padding: .5rem;
+	text-align: justify;
+}
+
+/* Боковые панели */
+.aside {
+	position: absolute;
+	top: 5%;
+	width: 30rem;
+	padding: 1rem;
+	z-index: 109;
+	background-color: #d9d9d9;
+	text-align: justify;
+	transition: all .5s linear;
+	border: 1px solid black;
+}
+.aside-left {
+	left: -30rem;
+}
+.aside-left-show {
+	left: 0;
+}
+.aside-right {
+	right: -30rem;
+}
+.aside-right-show {
+	right: 0;
+}
+
+/* md */ 
+@media (max-width: 1199px) {}
+
+/* sm */
+@media (max-width: 991px) {}
+
+/* xs */ 
+@media (max-width: 767px) {}
+
+/* xxs mobile*/ 
+@media (max-width: 479px) {}
