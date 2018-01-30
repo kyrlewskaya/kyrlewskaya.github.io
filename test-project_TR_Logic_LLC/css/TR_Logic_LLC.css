@@ -25,7 +25,6 @@ p {
 	position: relative;
 	max-width: 1024px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 .header {
 	position: -webkit-sticky;
@@ -94,9 +93,19 @@ p {
 }
 
 /* Боковые панели */
+.wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
 .aside {
 	position: absolute;
-	top: 5%;
+	top: 8%;
 	width: 30rem;
 	padding: 1rem;
 	z-index: 109;
