@@ -26,9 +26,6 @@ p {
 	max-width: 1024px;
 	border: 1px solid red;
 }
-header {
-
-}
 .header {
 	position: -webkit-sticky;
 	position: -moz-sticky;
@@ -119,15 +116,3 @@ header {
 .aside-right-show {
 	right: 0;
 }
-
-/* md */ 
-@media (max-width: 1199px) {}
-
-/* sm */
-@media (max-width: 991px) {}
-
-/* xs */ 
-@media (max-width: 767px) {}
-
-/* xxs mobile*/ 
-@media (max-width: 479px) {}
