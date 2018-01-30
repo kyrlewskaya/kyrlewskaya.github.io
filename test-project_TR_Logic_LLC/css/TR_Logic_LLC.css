@@ -21,9 +21,10 @@ a:hover {
 p {
 	margin-bottom: 0;
 }
-.container {
+.contain {
 	position: relative;
 	max-width: 1024px;
+	margin: 0 auto;
 	border: 1px solid red;
 }
 .header {
