@@ -1,6 +1,8 @@
 # Наталья Курлович
 Мои домашние задания
 
+[test-project_TR_Logic_LLC](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/test-project_TR_Logic_LLC "test-project_TR_Logic_LLC")
+
 [Модуль_5_Практика](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Practice/src "Модуль_5_Практик")
 
 [Урок 2](https://github.com/kyrlewskaya/kyrlewskaya.github.io/tree/master/Lesson_2 "Работа с графикой для разработчика")
