@@ -1,0 +1,368 @@
+/* Fonts */
+@font-face {
+  font-family: 'MyriadProBold';
+  src: url('../fonts/MyriadPro-Bold.eot');
+  src: url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Bold.woff2') format('woff2'), url('../fonts/MyriadPro-Bold.woff') format('woff'), url('../fonts/MyriadPro-Bold.ttf') format('truetype'), url('../fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Colors */
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'MyriadPro', sans-serif;
+  padding-bottom: 15rem;
+  background: url(../img/bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+p {
+  margin-bottom: 0;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.container {
+  width: 100%;
+  padding: 0;
+}
+.wrap {
+  margin-top: 18.5rem;
+  padding: 8rem 10rem;
+  color: #ffffff;
+  background-color: #333333;
+}
+.header {
+  margin-bottom: 7rem;
+  text-align: center;
+}
+.header-name {
+  margin-bottom: 2.5rem;
+  font-size: 3.6rem;
+  font-family: 'MyriadProBold', sans-serif;
+  text-transform: uppercase;
+}
+.header-name span {
+  font-weight: normal;
+  text-transform: lowercase;
+}
+.header-picture {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.header-logo {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.header-text {
+  display: block;
+  font-size: 3.5rem;
+  color: #ba4a19;
+  text-transform: uppercase;
+}
+.main-text {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+.main-form-input {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  color: #333333;
+  font-size: 1.4rem;
+  font-family: 'MyriadProBold', sans-serif;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 2px;
+}
+.main-option {
+  position: relative;
+  margin-bottom: 5rem;
+}
+.main-option label {
+  display: inline-block;
+  margin-right: 4rem;
+  font-size: 1.8rem;
+}
+.main-option-input {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: auto;
+  outline: none;
+  border: none;
+}
+.main-option-input-top {
+  width: 21rem;
+}
+.main-option-input-bottom {
+  width: 29rem;
+  right: 15%;
+}
+.main-photo {
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 4.5rem;
+}
+.main-photo-button {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  margin-right: 1.4rem;
+  padding: 1rem 4.5rem;
+}
+.main-photo-text {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.8rem;
+}
+.main-photo-text span {
+  display: block;
+  font-size: 1.2rem;
+}
+.main-accept-block {
+  position: relative;
+  margin-bottom: 4rem;
+  line-height: 1;
+}
+.main-accept-block p {
+  margin-left: 3.5rem;
+  font-size: 2.3rem;
+}
+.main-accept-block input {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0;
+  margin-right: 1rem;
+}
+.main-accept-block span {
+  font-size: 1.4rem;
+}
+.main-accept-block small {
+  font-size: 1.2rem;
+}
+.main-validation {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.main-validation-text {
+  display: inline-block;
+  margin-right: 5.5rem;
+}
+.main-validation-value {
+  width: 6.5rem;
+  margin-bottom: 0;
+}
+.main-button {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.main-button button {
+  padding: 1.5rem 6.5rem;
+  color: #ffffff;
+  background-color: #d67c1c;
+  border: 1px solid #c6c1bb;
+  border-radius: 2px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.main-note {
+  font-size: 1.3rem;
+  text-align: center;
+}
+/* lg */
+@media (max-width: 1699px) {
+  .main-option {
+    margin-bottom: 4rem;
+  }
+  .main-option label {
+    margin-right: 1rem;
+  }
+  .main-option-input {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    margin-bottom: 0;
+  }
+  .main-option-input-top {
+    width: 12rem;
+  }
+  .main-option-input-bottom {
+    width: 20rem;
+  }
+  .main-photo {
+    margin-bottom: 9rem;
+  }
+  .main-photo-text {
+    bottom: auto;
+  }
+  .main-validation-text {
+    width: 108%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+/* md */
+@media (max-width: 1199px) {
+  .wrap {
+    margin-top: 16rem;
+    padding: 7rem 11rem;
+  }
+  .header-name {
+    font-size: 3.3rem;
+  }
+  .header-text {
+    font-size: 2.5rem;
+  }
+  .main-validation-text {
+    width: 100%;
+  }
+}
+/* sm */
+@media (max-width: 991px) {
+  .wrap {
+    padding: 6rem 10rem;
+  }
+  .header-name {
+    font-size: 3.3rem;
+  }
+  .header-text {
+    font-size: 2.6rem;
+  }
+  .main-option label {
+    margin-right: 3rem;
+  }
+}
+/* xs */
+@media (max-width: 767px) {
+  .wrap {
+    margin-top: 14rem;
+    padding: 4rem 7rem;
+  }
+  .header-name {
+    font-size: 2.6rem;
+  }
+  .header-text {
+    font-size: 2.1rem;
+  }
+  .main-photo {
+    margin-bottom: 7rem;
+  }
+  .main-photo-button {
+    padding: 1rem 1.5rem;
+  }
+  .main-photo-text {
+    position: relative;
+    margin-top: 1rem;
+  }
+  .main-validation-text span {
+    display: block;
+  }
+  .main-button button {
+    padding: 1.5rem 3rem;
+    font-size: 1.7rem;
+  }
+}
+/* xxs mobile*/
+@media (max-width: 479px) {
+  .wrap {
+    margin-top: 10rem;
+    padding: 3rem;
+  }
+  .header {
+    margin-bottom: 5rem;
+  }
+  .header-name {
+    font-size: 2.2rem;
+  }
+  .header-picture {
+    width: 90%;
+  }
+  .header-text {
+    font-size: 1.8rem;
+  }
+  .main-text {
+    font-size: 1.4rem;
+  }
+  .main-form {
+    margin-bottom: 3rem;
+  }
+  .main-form-input {
+    margin-bottom: 1rem;
+  }
+  .main-option label {
+    font-size: 1.6rem;
+  }
+  .main-photo {
+    margin-bottom: 5rem;
+  }
+  .main-photo-button {
+    margin-bottom: 0;
+    padding: 1rem 2rem;
+  }
+  .main-photo-text {
+    font-size: 1.6rem;
+  }
+  .main-photo-text span {
+    display: block;
+    font-size: 1.1rem;
+  }
+  .main-accept-block input {
+    width: 2rem;
+    height: 2rem;
+  }
+  .main-accept-block p {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .main-accept-block span {
+    font-size: 1.2rem;
+  }
+  .main-accept-block small {
+    font-size: 1rem;
+  }
+  .main-validation {
+    font-size: 1.8rem;
+  }
+  .main-validation-value {
+    margin-bottom: 0;
+    padding: 1rem 1.5rem;
+  }
+  .main-button button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .main-note {
+    font-size: 1.1rem;
+  }
+}
